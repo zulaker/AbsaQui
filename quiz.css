@@ -1,0 +1,67 @@
+body{
+    background : red;
+    color: black;
+    font-family: 'Ariel', sans-serif;
+    font-size: 20px;
+}
+
+#container{
+    width: 60%;
+    background: white;
+    margin: 20PX auto;
+    overflow: auto;
+    padding: 25px;
+}
+
+header{
+    text-align: center;
+    border-bottom: #111111 dashed 2px;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+}
+
+header p{
+     padding: 0;
+     margin-top: 25px;
+     color: #000;
+     font-size: 20px;
+}
+
+section{
+    min-height: 400px;
+}
+
+footer{
+    text-align: center;
+}
+
+input[type='submit']{
+  background: red;
+  border: 0;
+  color: white;
+  padding: 10px 15px;
+  cursor : pointer;
+}
+
+input[type='button']{
+    background: red;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    cursor : pointer;
+  }
+
+#results h3{
+    background: black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#results span{
+  color: #000;
+  font-weight: bold;
+}
+
